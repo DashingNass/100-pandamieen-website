@@ -2,7 +2,14 @@
 /*               UNIVERSELE STYLING               */
 /*================================================*/
 * {
-    background-color: #090734;
+/*    background-color: #090734;*/
+/*    background-color: #284F85;*/
+/*    background-color: #202A4A;*/
+/*    background-color: #0A1E59;*/
+/*    background-color: black;*/
+/*    background-color: #336673;*/
+    background-color: #003366;
+
 }
 
 
@@ -21,13 +28,11 @@
     width: 100%;
     background-color: #090734;
 }
-
 .progress-container {
     width: 100%;
     height: 8px;
     background-color: transparent;
 }
-
 .progress-bar {
     height: 6.5px;
     background: #FBB040;
@@ -66,9 +71,8 @@ header h1 {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 1em;
-    color: white;
+    color: #ffffff;
 }
-
 .spaanse {
     text-align: center;
     margin-top: -1.8em;
@@ -76,9 +80,8 @@ header h1 {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 1em;
-    color: white;
+    color: #ffffff;
 }
-
 .papagaai {
     text-align: center;
     margin-top: -1.8em;
@@ -86,12 +89,8 @@ header h1 {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 1em;
-    color: white;
+    color: #ffffff;
 }
-
-
-
-
 
 
 
@@ -117,11 +116,10 @@ header h1 {
     margin-right: auto;
     margin-left: 3.5em;
     margin-top: 2em;
-    color: white;
+    color: #ffffff;
     background-color: transparent;
 
 }
-
 .partOne h1 {
     font-family: 'Poppins', sans-serif;
     font-size: 2em;
@@ -129,20 +127,22 @@ header h1 {
     padding: 0.5em;
     /*    padding-bottom: 1em;*/
     color: #2131ae;
-    /*    background-color: transparent;*/
-    background-color: #090734;
+    color: deepskyblue;
+        background-color: transparent;
+/*    background-color: #090734;*/
+/*    background-color: #202A4A;*/
+/*    background-color: #0A1E59;*/
 
 }
-
 .partOne > p {
     font-size: 1em;
     font-family: 'Poppins', sans-serif;
     position: absolute;
     margin-top: 10em;
     margin-left: 1em;
-    color: white;
-    background-color: #090734;
-
+    color: #ffffff;
+/*    background-color: #090734;*/
+    background-color: #003366;
 
 }
 
@@ -153,7 +153,8 @@ svg {
     height: 30em;
     margin-left: 30em;
     padding-left: 6em;
-    background-color: #090734;
+/*    background-color: #090734;*/
+    background-color: #003366;
 
 }
 
@@ -295,144 +296,129 @@ svg {
 .ding0 {
     fill: lightgray;
 }
-
 .ding1 {
     fill: darkgray;
 }
-
 .ding2 {
     fill: darkgray;
 }
-
 .ding3 {
     fill: red;
 }
-
 .ding4 {
     fill: lightgray;
 }
-
 .ding5 {
     fill: slategray;
     opacity: 1;
 }
-
 .ding6 {
     fill: darkblue;
 }
-
 .ding7 {
     fill: white;
 }
 
+
+
 /*kleuren van het camp*/
 .st0 {
-    fill: #090734;
+/*    fill: #090734;*/
+    fill:#003366;
+    stroke: none;
     /*    fill: #0C4E48;*/
 
 }
-
 .st1 {
-    fill: #090734;
+    fill: #003366;
+/*    fill: #090734;*/
     stroke: none;
 }
-
 .st2 {
     stroke: none;
     /*    fill: #115649;*/
-    fill: #090734;
+/*    fill: #090734;*/
+    opacity: 0;
 
 }
-
 .st3 {
     stroke: none;
-    fill: #0B4A3F;
-    opacity: 0.4;
+/*    fill: #0B4A3F;*/
+    fill: black;
+    opacity: 0.1;
 }
 
 .st4 {
     stroke: none;
-    fill: #0A3F35;
-    opacity: 0.3;
+/*    fill: #0A3F35;*/
+    fill: black;
+    opacity: 0.2;
 
 }
+
 
 .st5 {
     stroke: none;
     fill: #FCD384;
 }
-
 .st6 {
     stroke: none;
     fill: #651B22;
 }
-
 .st7 {
     stroke: none;
 
     fill: url(#SVGID_1_);
 }
-
 .st8 {
     stroke: none;
 
     fill: url(#SVGID_2_);
 }
-
 .st9 {
     stroke: none;
 
     fill: url(#SVGID_3_);
 }
-
 .st10 {
     stroke: none;
 
     fill: url(#SVGID_4_);
 }
-
 .st11 {
     stroke: none;
 
     fill: url(#SVGID_5_);
 }
-
 .st12 {
     stroke: none;
 }
-
 .st13 {
     stroke: 1px;
     fill: #B22C2F;
 }
-
 .st14 {
     fill: url(#SVGID_6_);
 }
-
 .st15 {
     stroke: none;
     fill: url(#SVGID_7_);
 }
-
 .st16 {
     stroke: none;
 
     fill: url(#SVGID_8_);
 }
-
 .st17 {
     stroke: none;
 
     fill: url(#SVGID_9_);
 }
-
 .st18 {
     stroke: none;
 
     fill: url(#SVGID_10_);
 }
-
 .st19 {
     stroke: none;
     fill: #585513;
@@ -520,7 +506,7 @@ svg {
     margin-top: 5em;
     margin-left: -6em;
     background-color: transparent;
-    color: white;
+    color: #ffffff;
 
 
 }
@@ -745,7 +731,7 @@ svg {
     position: absolute;
     padding-bottom: 7em;
     margin-left: 1em;
-    color: white;
+    color: #ffffff;
 
 }
 
@@ -786,16 +772,15 @@ svg {
 
 /*magerehein kleuren*/
 .hein0 {
-    fill:
-        black;
+    fill:black;
 }
 
 .hein1 {
-    fill: black
+    fill: #212121;
 }
 
-.hein1 {
-    fill: black;
+.hein2 {
+    fill: #212121;
 }
 
 .hein3 {
@@ -811,16 +796,20 @@ svg {
 }
 
 .hein6 {
-    fill: black;
+    fill: #212121;
 }
 
 .hein7 {
-    fill: black;
+    fill: #212121;
 }
+
+
+
 
 /*Coffin colors*/
 .kistkleur0 {
-    fill: #090734;
+/*    fill: #090734;*/
+    fill: #003366;
 }
 
 .kistkleur1 {
@@ -891,8 +880,9 @@ svg {
 /*achtergrond kleuren*/
 #htmlKleur1,
 #bodyKleur1 {
-    /*    background-color: lightcoral;*/
     background-color: #D6C68B;
+/*    overflow: hidden;*/
+
 }
 
 /*scrolling header*/
@@ -932,7 +922,7 @@ svg {
     margin-right: auto;
     margin-left: 3.5em;
     margin-top: 2em;
-    color: white;
+    color: #ffffff;
     background-color: transparent;
 
 }
@@ -953,7 +943,7 @@ svg {
     position: absolute;
     margin-top: 10em;
     margin-left: 1em;
-    color: black;
+    color: #000000;
     background-color: transparent;
 
 }
@@ -1114,7 +1104,7 @@ svg {
     margin-top: 5em;
     margin-left: -6em;
     background-color: transparent;
-    color: black;
+    color: #000000;
 
 
 }
@@ -1290,7 +1280,6 @@ svg {
 #htmlKleur2,
 #bodyKleur2 {
     background-color: #B0E0E6;
-
 }
 
 /*scrolling header*/
@@ -1328,7 +1317,7 @@ svg {
     margin-right: auto;
     margin-left: 3.5em;
     margin-top: 2em;
-    color: white;
+    color: #ffffff;
     background-color: transparent;
 
 }
@@ -1345,7 +1334,7 @@ svg {
     position: absolute;
     margin-top: 10em;
     margin-left: 1em;
-    color: black;
+    color: #000000;
     background-color: transparent;
 
 }
@@ -1529,7 +1518,7 @@ svg {
     margin-top: 12em;
     margin-left: -6em;
     background-color: transparent;
-    color: black;
+    color: #000000;
 }
 
 
@@ -1589,7 +1578,7 @@ svg {
     margin-right: auto;
     margin-left: 3.5em;
     margin-top: 2em;
-    color: white;
+    color: #ffffff;
     background-color: transparent;
 
 }
@@ -1600,7 +1589,7 @@ svg {
     margin-left: 1em;
 /*    margin-top: 28em;*/
     margin-top: 5em;
-    color: black;
+    color: #000000;
     background-color: transparent;
 
 }
@@ -1659,147 +1648,33 @@ svg {
 /*================================================*/
 /*                      BUTTON                    */
 /*================================================*/
-/*ORIGINELE BUTTON STYLING*/
-/*
-.button {
-    border: none;
-    vertical-align: middle;
-    display: inline-block;
-    color: #FFFFFF;
-    text-align: center;
-    font-size: 0.9em;
-    padding: 10px;
-    width: 6em;
-    transition: all 0.5s;
-    cursor: pointer;
-      margin: 5px;
-    margin-left: 4.3em;
-}
-
-.button span {
-    font-family: 'Poppins', sans-serif;
-    font-size: 1em;
-    color: #191B9E;
-
-    cursor: pointer;
-    display: inline-block;
-    position: relative;
-    transition: 0.5s;
-}
-
-.button span:after {
-    content: '\00bb';
-    position: absolute;
-    opacity: 0;
-    top: 0;
-    right: -10px;
-    transition: 0.5s;
-}
-
-.button:hover span {
-    padding-right: 20px;
-}
-
-.button:hover span:after {
-    opacity: 1;
-    right: 0;
-}
-*/
 
 
 
-
-/*volgende knop naar artikel*/
-.nextButton {
-    border: none;
-    vertical-align: middle;
-    display: inline-block;
-    text-align: center;
-    font-size: 0.9em;
-    padding: 10px;
-    background-color: transparent;
-
-
-    /*    Aanpassen voor lengte*/
-    width: 19em;
-
-    transition: all 0.5s;
-    cursor: pointer;
-
-    /*  afstand van de button, links*/
-    margin-left: 2em;
-
-    margin-top: 15em;
-}
-.nextButton span {
-    font-family: 'Poppins', sans-serif;
-    font-size: 1em;
-    color: #191B9E;
-    cursor: pointer;
-    display: inline-block;
-    position: relative;
-    transition: 0.5s;
-    background-color: transparent;
-
-}
-.nextButton span:after {
-    content: '\00bb';
-    position: absolute;
-    opacity: 0;
-    top: 0;
-
-    /*    verborgen cursor afstand*/
-    right: -30px;
-    transition: 0.5s;
-}
-.nextButton:hover span {
-    padding-right: 20px;
-}
-.nextButton:hover span:after {
-    opacity: 1;
-    right: 0;
-}
-
-
-
-/*Achtergrond styling van de buttons*/
-.button span,
-.nextButton span {
-    color: green;
-}
-
-
-
-
-
-
-
-
-
-
-
-/*HIER BEN IK GEBLEVEN*/
-
-/*versie 2 button styling*/
+/*vorige knop naar artikel*/
 .vorigeKnop {
     border: none;
     vertical-align: middle;
     display: inline-block;
     text-align: center;
     font-size: 0.9em;
-    padding: 10px;
+    padding: 13px;
     background-color: transparent;
-
-
     /*    Aanpassen voor lengte*/
     width: 19em;
-
     transition: all 0.5s;
     cursor: pointer;
-
     /*  afstand van de button, links*/
     margin-left: 1em;
     margin-top: 15em;
+    margin-bottom: 2em;
+
+
+/*new design*/
+    border-radius: 1em;
+    cursor: pointer;
+    font-size: 14px;
+    text-align: center;
 }
 .vorigeKnop span {
     font-family: 'Poppins', sans-serif;
@@ -1809,36 +1684,36 @@ svg {
     display: inline-block;
     position: relative;
     transition: 0.5s;
+            color: deepskyblue;
     background-color: transparent;
 
 }
-.vorigeKnop span:after {
+.vorigeKnop span:before {
     content: '\00ab';
     position: absolute;
     opacity: 0;
     top: 0;
-
     /*    verborgen cursor afstand*/
-    right: -30px;
+    left: -30px;
     transition: 0.5s;
 }
 .vorigeKnop:hover span {
-    padding-right: 20px;
+    padding-left: 20px;
+color: black;
 }
-.vorigeKnop:hover span:after {
+.vorigeKnop:hover span:before {
     opacity: 1;
-    right: 0;
+    left: 0;
+    color: black;
+
+}
+.vorigeKnop:hover{
+background-color: #D3D3D3;
+    border: none;
 }
 
 
-
-
-
-
-
-
-
-
+/*volgende knop naar artikel*/
 .volgendeKnop {
     border: none;
     vertical-align: middle;
@@ -1847,7 +1722,6 @@ svg {
     font-size: 0.9em;
     padding: 10px;
     background-color: transparent;
-
 
     /*    Aanpassen voor lengte*/
     width: 19em;
@@ -1858,11 +1732,19 @@ svg {
     /*  afstand van de button, links*/
     margin-left: 46em;
     margin-top: 15em;
+
+/*    New design*/
+       border-radius: 1em;
+    cursor: pointer;
+    font-size: 14px;
+    text-align: center;
+        margin-bottom: 2em;
+
 }
 .volgendeKnop span {
     font-family: 'Poppins', sans-serif;
     font-size: 1em;
-    color: #191B9E;
+    color: deepskyblue;
     cursor: pointer;
     display: inline-block;
     position: relative;
@@ -1882,10 +1764,16 @@ svg {
 }
 .volgendeKnop:hover span {
     padding-right: 20px;
+    color: #ffffff;
 }
 .volgendeKnop:hover span:after {
     opacity: 1;
     right: 0;
+    color: #ffffff;
+}
+.volgendeKnop:hover{
+    background-color: #2131ae;
+    border: none;
 }
 
 
@@ -1899,77 +1787,130 @@ svg {
 
 
 
+/*Vorige knop op de pest pagina*/
+.vorigeKnop1 {
+    border: none;
+    vertical-align: middle;
+    display: inline-block;
+    text-align: center;
+    font-size: 0.9em;
+    padding: 10px;
+    background-color: transparent;
+    /*    Aanpassen voor lengte*/
+    width: 19em;
+    transition: all 0.5s;
+    cursor: pointer;
+    /*  afstand van de button, links*/
+    margin-left: 1em;
+/*    margin-top: 15em;*/
+    margin-top: 46.3em;
 
-
-
-/*================================================*/
-/*         ARTICLE SYLING NIET VERWIJDEREN       */
-/*================================================*/
-
-/*Article styling RECHTS*/
-/*
-.eersteZin {
-    display: flex;
-    position: absolute;
-    width: 30em;
-    margin-right: auto;
-    margin-left: 45em;
-    margin-top: 3em;
+/*new design*/
+    border-radius: 1em;
+    cursor: pointer;
+    font-size: 14px;
+    text-align: center;
 }
-.eersteZin h1 {
+.vorigeKnop1 span {
     font-family: 'Poppins', sans-serif;
-    font-size: 2em;
-    width: 30em;
-    padding: 0.5em;
-    padding-bottom: 1em;
-
-    color: #2131ae;
-
+    font-size: 1em;
+    color: #191B9E;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+    background-color: transparent;
 
 }
-.eersteZin > p {
-    font-family: 'Poppins', sans-serif;
+.vorigeKnop1 span:before {
+    content: '\00ab';
     position: absolute;
-    padding-top: .5em;
-    margin-top: 9em;
-    margin-left: 1.2em;
-color: #3a3a3a;
+    opacity: 0;
+    top: 0;
+    /*    verborgen cursor afstand*/
+    left: -30px;
+    transition: 0.5s;
+}
+.vorigeKnop1:hover span {
+    padding-left: 20px;
+    color: black;
+
+}
+.vorigeKnop1:hover span:before {
+    opacity: 1;
+    left: 0;
+    color: black;
+}
+.vorigeKnop1:hover{
+background-color: #D3D3D3;
+    border: none;
 }
 
-*/
 
-/*Article styling LINKS*/
-/*
-.zesPandemieen {
-    display: flex;
-    position: absolute;
-    width: 30em;
-    margin-right: auto;
-    margin-left: 3.5em;
-    margin-top: -2em;
+
+
+.volgendeKnop1 {
+    border: none;
+    vertical-align: middle;
+    display: inline-block;
+    text-align: center;
+    font-size: 0.9em;
+    padding: 10px;
+    background-color: transparent;
+
+    /*    Aanpassen voor lengte*/
+    width: 19em;
+
+    transition: all 0.5s;
+    cursor: pointer;
+
+    /*  afstand van de button, links*/
+    margin-left: 46em;
+    margin-top: 50em;
+
+
+/*    New design*/
+        border-radius: 1em;
+    cursor: pointer;
+    font-size: 14px;
+    text-align: center;
+        margin-bottom: 2em;
+
 }
-.zesPandemieen h1 {
+.volgendeKnop1 span {
     font-family: 'Poppins', sans-serif;
-    font-size: 2em;
-    width: 30em;
-    padding: 0.5em;
-    padding-bottom: 1em;
-    color: #2131ae;
+    font-size: 1em;
+    color: #191B9E;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+    background-color: transparent;
 
 }
-.zesPandemieen > p {
-    font-family: 'Poppins', sans-serif;
+.volgendeKnop1 span:after {
+    content: '\00bb';
     position: absolute;
-    margin-top: 6em;
-    margin-left: 1.2em;
-color: #3a3a3a;
+    opacity: 0;
+    top: 0;
+
+    /*    verborgen cursor afstand*/
+    right: -30px;
+    transition: 0.5s;
 }
-
-*/
-
-
-
-
+.volgendeKnop1:hover span {
+    padding-right: 20px;
+    color: #ffffff;
+}
+.volgendeKnop1:hover span:after {
+    opacity: 1;
+    right: 0;
+    color: #ffffff;
+}
+.volgendeKnop1:hover{
+    background-color: #2131ae;
+    border: none;
+}
 
 
 
