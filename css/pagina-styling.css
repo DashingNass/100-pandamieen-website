@@ -1408,6 +1408,7 @@ svg {
 
 
 
+
 /*SVG Boat*/
 #boat {
     background-color: transparent;
@@ -1496,6 +1497,11 @@ svg {
 
 
 
+
+
+
+
+
 /*================================================*/
 /*    PAPAGAAIEN ZIEKTE  –  DEEL 2 VAN DE PAGINA  */
 /*================================================*/
@@ -1514,7 +1520,7 @@ svg {
     width: 30em;
     margin-right: auto;
     margin-left: 45em;
-    margin-top: 30em;
+    margin-top: -10em;
 
 }
 .partSeven > p {
@@ -1524,11 +1530,42 @@ svg {
     margin-left: -6em;
     background-color: transparent;
     color: black;
-
-
 }
 
 
+/*SVG vogel in box*/
+#vogelinbox{
+    height: 24em;
+    width: 24em;
+    padding-top: 0em;
+    margin-left: -4em;
+    background-color: transparent;
+
+}
+
+    .parrotinbox0{fill:#EE3B23;}
+    .parrotinbox1{fill:#E8DAD7;}
+    .parrotinbox2{fill:#9D9A98;}
+    .parrotinbox3{fill:#FCD384;}
+    .parrotinbox4{fill:#FFFFFF;}
+    .parrotinbox5{fill:#C2B7B6;}
+    .parrotinbox6{fill:#4D5A5C;}
+    .parrotinbox7{fill:#86ADA8;}
+    .parrotinbox8{fill:#015F90;}
+    .parrotinbox9{fill:url(#SVGID_1_);}
+    .parrotinbox10{fill:url(#SVGID_2_);}
+    .parrotinbox11{fill:url(#SVGID_3_);}
+    .parrotinbox12{fill:url(#SVGID_4_);}
+    .parrotinbox13{fill:url(#SVGID_5_);}
+    .parrotinbox14{fill:url(#SVGID_6_);}
+    .parrotinbox15{fill:#DD3322;}
+    .parrotinbox16{fill:#37529F;}
+    .parrotinbox17{fill:#4693C9;}
+    .parrotinbox18{fill:#5EAD48;}
+    .parrotinbox19{fill:#FEDC00;}
+    .parrotinbox20{fill:#253474;}
+    .parrotinbox21{fill:#B22C2F;}
+    .parrotinbox22{fill:#651B22;}
 
 
 
@@ -1544,7 +1581,7 @@ svg {
     width: 100%;
 }
 
-/*Artikel deel 1*/
+/*Artikel deel 3*/
 .partEight {
     display: flex;
     position: absolute;
@@ -1556,13 +1593,13 @@ svg {
     background-color: transparent;
 
 }
-
 .partEight > p {
     font-size: 1em;
     font-family: 'Poppins', sans-serif;
     position: absolute;
     margin-left: 1em;
-    margin-top: 70em;
+/*    margin-top: 28em;*/
+    margin-top: 5em;
     color: black;
     background-color: transparent;
 
@@ -1570,8 +1607,52 @@ svg {
 
 
 
+#bacteria{
+    background-color: transparent;
+    height: 8em;
+    width: 8em;
+    padding-left: 24em;
+    margin-top: 8em;
+}
 
 
+#bacteria:hover{
+            animation: jello-horizontal 0.9s both;
+}
+
+    .bacteria0{
+        fill:#E5CCE1;
+}
+    .bacteria1{
+        fill:#FFF2F5;
+}
+    .bacteria2{
+        fill:#E392CD;
+}
+
+@keyframes jello-horizontal {
+  0% {
+    transform: scale3d(1, 1, 1);
+  }
+  30% {
+    transform: scale3d(1.25, 0.75, 1);
+  }
+  40% {
+    transform: scale3d(0.75, 1.25, 1);
+  }
+  50% {
+    transform: scale3d(1.15, 0.85, 1);
+  }
+  65% {
+    transform: scale3d(0.95, 1.05, 1);
+  }
+  75% {
+    transform: scale3d(1.05, 0.95, 1);
+  }
+  100% {
+    transform: scale3d(1, 1, 1);
+  }
+}
 
 
 
